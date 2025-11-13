@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1001,
+    "title": "Demo Smartphone",
+    "description": "A demo smartphone with photos and an optional video. Parallax header enabled.",
+    "price": 14999,
+    "contact": "seller@example.com",
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": 1002,
+    "title": "Wireless Headphones",
+    "description": "Comfortable over-ear wireless headphones.",
+    "price": 3999,
+    "contact": "audio@example.com",
+    "images": [],
+    "videos": []
+  }
+]
