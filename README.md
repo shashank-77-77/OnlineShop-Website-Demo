@@ -1,2 +1,1 @@
-# On-ineShop-Website-Demo
-Website is based on online shoping of goods n item
+The OnlineShop Website is a dynamic web-based e-commerce platform designed to streamline the online shopping experience. It enables users to browse, select, and purchase goods and items seamlessly through an intuitive interface. The website emphasizes responsive design, smooth navigation, and user-friendly interactions to deliver a modern retail experience.
