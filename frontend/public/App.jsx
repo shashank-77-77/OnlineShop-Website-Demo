@@ -2,12 +2,11 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import AddProduct from "./pages/AddProduct";
-import ProductPage from "./pages/ProductPage";
-
+import Home from "./Home";  
+import Login from "./Login";  
+import Register from "./Register";
+import AddProduct from "./AddProduct";
+import ProductPage from "./ProductPage"; // if exists
 
 export default function App() {
   return (
