@@ -1,0 +1,18 @@
+frontend/src/
+├─ App.jsx
+├─ index.js
+├─ components/
+│   └─ Navbar.jsx
+├─ pages/
+│   ├─ Home.jsx
+│   ├─ Login.jsx
+│   ├─ Products.jsx
+│   └─ Cart.jsx
+├─ styles/
+│   ├─ Navbar.css
+│   ├─ Home.css
+│   ├─ Login.css
+│   ├─ Products.css
+│   └─ Cart.css
+├─ context/
+│   └─ AuthContext.jsx

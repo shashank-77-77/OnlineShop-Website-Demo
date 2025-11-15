@@ -1,12 +1,13 @@
 import React from "react";
-import "../styles/PageStyles.css";
+import "../styles/Home.css";
 
-
-export default function Home() {
+const Home = () => {
   return (
-    <div className="page">
-      <h1>Welcome to OnlineShop</h1>
-      <p>Your one-stop marketplace for smart shopping.</p>
+    <div className="page-container">
+      <h1>Welcome to ShopEase</h1>
+      <p>Discover amazing products and deals!</p>
     </div>
   );
-}
+};
+
+export default Home;

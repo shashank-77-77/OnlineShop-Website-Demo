@@ -1,25 +1,22 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Register from "./pages/Register";
-import AddProduct from "./pages/AddProduct";
-import ProductPage from "./pages/ProductPage";
-import "./styles/global.css";
+import Products from "./pages/Products";
+import Cart from "./pages/Cart";
 
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/add-product" element={<AddProduct />} />
-        <Route path="/products" element={<ProductPage />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
+
+export default App;
